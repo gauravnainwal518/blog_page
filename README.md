@@ -52,6 +52,8 @@ JWT_SECRET=your_jwt_secret
 
 # Run the backend server
 npm run dev
+
+
 # Go to the frontend directory
 cd blog_frontend
 
