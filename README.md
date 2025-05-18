@@ -37,22 +37,31 @@ root/
 ```bash
 git clone https://github.com/gauravnainwal518/blog_page
 
-### 2. backend setup
+# Step into the backend directory
 cd blog-backend
+
+# Install backend dependencies
 npm install
-//Create a .env file in the backend/ directory with the following variables
+
+# Create a .env file
+ .env
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret
-//Start the backend server:
-npm run dev
 
-### 3. frontend setup
+# Run the backend server
+npm run dev
+# Go to the frontend directory
 cd blog_frontend
+
+# Install frontend dependencies
 npm install
-//create a .env file 
-VITE_TINYMCE_API_KEY=your_tinymce_api_key   (//You can get a free TinyMCE API key from https://www.tiny.cloud/)
-//start the frontend server:
+
+# Create .env file
+ .env
+VITE_TINYMCE_API_KEY=your_tinymce_api_key (Get a free API key from https://www.tiny.cloud/)
+
+# Run the frontend development server
 npm run dev
 
 
