@@ -10,6 +10,7 @@ This is a full-stack blog editor web application built using the MERN stack. It 
 - Tailwind CSS
 - Context API
 - TinyMCE (Rich Text Editor)
+- dotenv for environment variables
 
 ### Backend
 - Node.js
