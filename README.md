@@ -14,7 +14,7 @@ This is a full-stack blog editor web application built using the MERN stack. It 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB with Mongoose
+- MongoDB atlas free tier
 - JWT Authentication
 - dotenv for environment variables
 
